@@ -1,65 +1,8 @@
 "use client";
 
-import { useState } from "react";
-
 export default function Home() {
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
-
   return (
     <div className="min-h-screen bg-gray-50 font-family-sans">
-      {/* Navbar */}
-      <nav className="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-100">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex h-16 items-center justify-between">
-            {/* Logo */}
-            <div className="flex-shrink-0 flex items-center">
-              <span className="text-xl font-bold text-gray-800">CollegeDisc</span>
-            </div>
-
-            {/* Desktop Nav Links */}
-            <div className="hidden md:flex md:items-center md:space-x-8">
-              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-200">Home</a>
-              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-200">Colleges</a>
-              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-200">Compare</a>
-              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-200">About Us</a>
-              <a href="#" className="text-gray-600 hover:text-gray-900 transition-colors duration-200">Contact</a>
-            </div>
-
-            {/* Mobile Menu Button */}
-            <div className="md:hidden">
-              <button
-                onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-                className="p-2 rounded-md text-gray-600 hover:bg-gray-100 hover:text-gray-900"
-                aria-label="Open mobile menu"
-              >
-                {isMobileMenuOpen ? (
-                  <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                  </svg>
-                ) : (
-                  <svg className="h-6 w-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-                )}
-              </button>
-            </div>
-          </div>
-        </div>
-
-        {/* Mobile Menu Dropdown */}
-        {isMobileMenuOpen && (
-          <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Home</a>
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Colleges</a>
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Compare</a>
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">About Us</a>
-              <a href="#" className="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:bg-gray-50">Contact</a>
-            </div>
-          </div>
-        )}
-      </nav>
-
       {/* Hero Section */}
       <section className="relative bg-gradient-to-b from-blue-50 to-white py-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -184,7 +127,7 @@ export default function Home() {
             <div className="text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-lg flex items-center justify-center">
                 <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7 20h10a2 2 0 002-2V6a2 2 0 00-2-2H7a2 2 0 00-2 2v12a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4M7 20h10a2 2 0 002-2V6a2 2 0 002-2H7a2 2 0 002-2v12a2 2 0 002 2z" />
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Comprehensive Database</h3>
@@ -197,7 +140,7 @@ export default function Home() {
             <div className="text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-lg flex items-center justify-center">
                 <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7H3m8 4H3m-9 8h10M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2-2v12a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7H3m8 4H3m-9 8h10M5 20h14a2 2 0 002-2V8a2 2 0 002-2H5a2 2 0 002-2v12a2 2 0 002 2z" />
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Smart Comparison Tool</h3>
@@ -210,7 +153,7 @@ export default function Home() {
             <div className="text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-lg flex items-center justify-center">
                 <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m2 0a2 2 0 100-4 2 2 0 000-4 2 2 0 100 4 2 2 0 100-4 2 2 0 000 4zM9 18a3 3 0 013-3h6a3 3 0 013 3v2a1 1 0 01-1 1h-8a1 1 0 01-1-1v-2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m2 0a2 2 0 100-4 2 2 0 100 4 2 2 0 100-4 2 2 0 100-4 2 2 0 100-4 2 2 0 000 4zM9 18a3 3 0 013-3h6a3 3 0 013 3v2a1 1 0 01-1 1h-8a1 1 0 01-1-1v-2z" />
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Expert Guidance</h3>
@@ -223,7 +166,7 @@ export default function Home() {
             <div className="text-center">
               <div className="w-16 h-16 mx-auto mb-4 bg-blue-100 rounded-lg flex items-center justify-center">
                 <svg className="h-6 w-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2-1.343-2-3-2zm0 10c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2-1.343-2-3-2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3-.895 3-2-1.343-2-3-2z" />
                 </svg>
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-2">Verified Reviews</h3>
@@ -276,7 +219,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold text-white mb-4">Quick Links</h3>
               <ul className="space-y-2">
                 <li><a href="#" className="hover:text-white transition-colors duration-200">Home</a></li>
-                <li><a href="#" className="hover:text-white transition-colors duration-200">Colleges</a></li>
+                <li><a href="/colleges" className="hover:text-white transition-colors duration-200">Colleges</a></li>
                 <li><a href="#" className="hover:text-white transition-colors duration-200">Compare</a></li>
                 <li><a href="#" className="hover:text-white transition-colors duration-200">About Us</a></li>
                 <li><a href="#" className="hover:text-white transition-colors duration-200">Contact</a></li>
@@ -299,7 +242,7 @@ export default function Home() {
               <h3 className="text-lg font-semibold text-white mb-4">Contact Us</h3>
               <p className="flex items-start space-x-3 text-sm">
                 <svg className="h-5 w-5 mt-0.5 text-blue-400 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2-2v10a2 2 0 002 2z" />
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 002-2H5a2 2 0 002-2v10a2 2 0 002 2z" />
                 </svg>
                 <span>info@collegedisc.com</span>
               </p>

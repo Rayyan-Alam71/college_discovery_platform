@@ -33,7 +33,7 @@ export default function CollegePageView({ data: collegId }: { data: string }) {
         const fetchDetail = async () => {
             try {
                 setIsLoading(true)
-                const response = await fetch(`http://localhost:3000/api/college?id=${collegId}`)
+                const response = await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/collegeDetail?id=${collegId}`)
                 const data = await response.json()
 
                 if (data.success) {
@@ -227,8 +227,8 @@ export default function CollegePageView({ data: collegId }: { data: string }) {
                                                                 <svg
                                                                     key={starIndex}
                                                                     className={`h-4 w-4 ${starIndex <= review.rating
-                                                                            ? "text-yellow-400"
-                                                                            : "text-yellow-200"
+                                                                        ? "text-yellow-400"
+                                                                        : "text-yellow-200"
                                                                         }`}
                                                                     fill="currentColor"
                                                                     viewBox="0 0 20 20"
