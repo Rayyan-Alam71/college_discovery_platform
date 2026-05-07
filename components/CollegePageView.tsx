@@ -9,7 +9,7 @@ export default function CollegePageView({ data: collegId }: { data: string }) {
         {
             name: "",
             description: "",
-            slug: "",
+            id: "",
             logo: "",
             address: "",
             state: "",
@@ -144,8 +144,7 @@ export default function CollegePageView({ data: collegId }: { data: string }) {
                                     </svg>
                                     <div>
                                         <p className="text-sm font-medium text-gray-500">Email</p>
-                                        <p className="text-gray-700">info@{college
-                                            .slug
+                                        <p className="text-gray-700">info@{college.name
                                             .toLowerCase()
                                             .replace(/-/g, "")}.edu.in</p>
                                     </div>
