@@ -4,7 +4,7 @@ const colleges = [
   {
     name: "Indian Institute of Technology Bombay",
     slug: "iit-bombay",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://plus.unsplash.com/premium_photo-1697729447666-c39f50d595ea?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "IIT Bombay is a public technical and research university located in Powai in Mumbai, Maharashtra, India.",
     address: "Main Gate Rd, IIT Area, Powai",
     city: "Mumbai",
@@ -25,7 +25,7 @@ const colleges = [
   {
     name: "Indian Institute of Technology Delhi",
     slug: "iit-delhi",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://images.unsplash.com/photo-1680084521816-cc1ad0433ceb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Indian Institute of Technology Delhi is a public technical and research university located in Hauz Khas in Delhi, India.",
     address: "Hauz Khas",
     city: "New Delhi",
@@ -46,7 +46,7 @@ const colleges = [
   {
     name: "Indian Institute of Technology Madras",
     slug: "iit-madras",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://plus.unsplash.com/premium_photo-1697729465979-f677d9732a18?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Indian Institute of Technology Madras is a public technical and research university located in Chennai, Tamil Nadu.",
     address: "IIT P.O., Chennai",
     city: "Chennai",
@@ -67,7 +67,7 @@ const colleges = [
   {
     name: "Birla Institute of Technology and Science, Pilani",
     slug: "bits-pilani",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://images.unsplash.com/photo-1642915680258-6aaca62d3849?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "BITS Pilani is a private deemed university in Pilani, Rajasthan, India.",
     address: "Vidya Vihar",
     city: "Pilani",
@@ -88,7 +88,7 @@ const colleges = [
   {
     name: "Delhi Technological University",
     slug: "dtu",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://images.unsplash.com/photo-1622758940712-d946ce143bbf?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Delhi Technological University (DTU), formerly Delhi College of Engineering (DCE), is a state university in New Delhi.",
     address: "Shahbad Daulatpur, Main Bawana Road",
     city: "New Delhi",
@@ -109,7 +109,7 @@ const colleges = [
   {
     name: "National Institute of Technology Trichy",
     slug: "nit-trichy",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://images.unsplash.com/photo-1680084521631-e4e6d77704d8?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "National Institute of Technology Tiruchirappalli is a public technical and research university near the city of Tiruchirappalli.",
     address: "Tanjore Main Road, National Highway 67",
     city: "Tiruchirappalli",
@@ -151,7 +151,7 @@ const colleges = [
   {
     name: "Indian Institute of Science Bangalore",
     slug: "iisc-bangalore",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://plus.unsplash.com/premium_photo-1697729447666-c39f50d595ea?q=80&w=1171&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "The Indian Institute of Science is a public, deemed, research university for higher education and research in science, engineering, design, and management.",
     address: "CV Raman Rd",
     city: "Bengaluru",
@@ -172,7 +172,7 @@ const colleges = [
   {
     name: "Jadavpur University",
     slug: "jadavpur-university",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://images.unsplash.com/photo-1680084521816-cc1ad0433ceb?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Jadavpur University is a public state university located in Kolkata, West Bengal, India.",
     address: "188, Raja S.C. Mallick Rd",
     city: "Kolkata",
@@ -193,7 +193,7 @@ const colleges = [
   {
     name: "SRM Institute of Science and Technology",
     slug: "srm-ist",
-    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    logo: "https://plus.unsplash.com/premium_photo-1697729465979-f677d9732a18?q=80&w=880&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "SRM Institute of Science and Technology, formerly SRM University, is a private deemed university located in Kattankulathur.",
     address: "SRM Nagar, Kattankulathur",
     city: "Chennai",
@@ -238,11 +238,11 @@ function getRandomReviews() {
   const count = Math.floor(Math.random() * 3) + 2; // Random number between 2 and 4
   const shuffledTexts = [...reviewTemplates].sort(() => 0.5 - Math.random());
   const shuffledNames = [...mockNames].sort(() => 0.5 - Math.random());
-  
+
   return shuffledTexts.slice(0, count).map((text, i) => {
     // Random rating between 3.5 and 5.0
     const rating = Math.round((Math.random() * 1.5 + 3.5) * 10) / 10;
-    
+
     // Random date in the past 2 years
     const daysAgo = Math.floor(Math.random() * 730);
     const date = new Date();
