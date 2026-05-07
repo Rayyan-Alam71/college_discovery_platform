@@ -44,4 +44,16 @@ model College {
   courseName String
   courseSlug String @unique
   courseType String @default("UNDERGRADUATE")
+
+  reviews Review[]
+}
+
+model Review {
+  id         String   @id @default(uuid())
+  collegeId  String
+  reviewText String
+  college    College  @relation(fields: [collegeId], references: [id])
+  date       DateTime @default(now())
+  rating     Float    @default(0)
+  name       String?
 }

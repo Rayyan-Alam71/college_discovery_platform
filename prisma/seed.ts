@@ -4,7 +4,7 @@ const colleges = [
   {
     name: "Indian Institute of Technology Bombay",
     slug: "iit-bombay",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/1/1d/Indian_Institute_of_Technology_Bombay_Logo.svg/1200px-Indian_Institute_of_Technology_Bombay_Logo.svg.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "IIT Bombay is a public technical and research university located in Powai in Mumbai, Maharashtra, India.",
     address: "Main Gate Rd, IIT Area, Powai",
     city: "Mumbai",
@@ -25,7 +25,7 @@ const colleges = [
   {
     name: "Indian Institute of Technology Delhi",
     slug: "iit-delhi",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Indian_Institute_of_Technology_Delhi_Logo.svg/1200px-Indian_Institute_of_Technology_Delhi_Logo.svg.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Indian Institute of Technology Delhi is a public technical and research university located in Hauz Khas in Delhi, India.",
     address: "Hauz Khas",
     city: "New Delhi",
@@ -46,7 +46,7 @@ const colleges = [
   {
     name: "Indian Institute of Technology Madras",
     slug: "iit-madras",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Indian Institute of Technology Madras is a public technical and research university located in Chennai, Tamil Nadu.",
     address: "IIT P.O., Chennai",
     city: "Chennai",
@@ -67,7 +67,7 @@ const colleges = [
   {
     name: "Birla Institute of Technology and Science, Pilani",
     slug: "bits-pilani",
-    logo: "https://upload.wikimedia.org/wikipedia/en/d/d3/BITS_Pilani-Logo.svg",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "BITS Pilani is a private deemed university in Pilani, Rajasthan, India.",
     address: "Vidya Vihar",
     city: "Pilani",
@@ -88,7 +88,7 @@ const colleges = [
   {
     name: "Delhi Technological University",
     slug: "dtu",
-    logo: "https://upload.wikimedia.org/wikipedia/en/b/b5/DTU%2C_Delhi_official_logo.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Delhi Technological University (DTU), formerly Delhi College of Engineering (DCE), is a state university in New Delhi.",
     address: "Shahbad Daulatpur, Main Bawana Road",
     city: "New Delhi",
@@ -109,7 +109,7 @@ const colleges = [
   {
     name: "National Institute of Technology Trichy",
     slug: "nit-trichy",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/2/23/NIT_Tiruchirappalli_logo.png/220px-NIT_Tiruchirappalli_logo.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "National Institute of Technology Tiruchirappalli is a public technical and research university near the city of Tiruchirappalli.",
     address: "Tanjore Main Road, National Highway 67",
     city: "Tiruchirappalli",
@@ -130,7 +130,7 @@ const colleges = [
   {
     name: "Vellore Institute of Technology",
     slug: "vit-vellore",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Vellore Institute of Technology is a private deemed university located in Vellore, Tamil Nadu, India.",
     address: "VIT, Vellore Campus",
     city: "Vellore",
@@ -151,7 +151,7 @@ const colleges = [
   {
     name: "Indian Institute of Science Bangalore",
     slug: "iisc-bangalore",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/e/e9/Indian_Institute_of_Science_logo.svg/1200px-Indian_Institute_of_Science_logo.svg.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "The Indian Institute of Science is a public, deemed, research university for higher education and research in science, engineering, design, and management.",
     address: "CV Raman Rd",
     city: "Bengaluru",
@@ -172,7 +172,7 @@ const colleges = [
   {
     name: "Jadavpur University",
     slug: "jadavpur-university",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/2/25/Jadavpur_University_Logo.svg/1200px-Jadavpur_University_Logo.svg.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "Jadavpur University is a public state university located in Kolkata, West Bengal, India.",
     address: "188, Raja S.C. Mallick Rd",
     city: "Kolkata",
@@ -193,7 +193,7 @@ const colleges = [
   {
     name: "SRM Institute of Science and Technology",
     slug: "srm-ist",
-    logo: "https://upload.wikimedia.org/wikipedia/en/thumb/f/fe/Srmseal.png/220px-Srmseal.png",
+    logo: "https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=2086&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     description: "SRM Institute of Science and Technology, formerly SRM University, is a private deemed university located in Kattankulathur.",
     address: "SRM Nagar, Kattankulathur",
     city: "Chennai",
@@ -213,15 +213,78 @@ const colleges = [
   }
 ];
 
+const reviewTemplates = [
+  "Great faculty and amazing infrastructure.",
+  "The placement cell is very active and helpful.",
+  "Campus life is vibrant but academics are tough.",
+  "The courses are well structured and industry-relevant.",
+  "Hostel facilities could be better, but the labs are top-notch.",
+  "Excellent research opportunities and funding.",
+  "A lot of extracurricular activities to participate in.",
+  "The alumni network is very strong and supportive.",
+  "Libraries are well-stocked and open 24/7.",
+  "Good sports facilities and regular events.",
+  "The peer group is extremely competitive and inspiring.",
+  "Faculty members are very approachable and helpful."
+];
+
+const mockNames = [
+  "Rahul Sharma", "Priya Singh", "Amit Kumar", "Neha Gupta",
+  "Rohan Verma", "Anjali Desai", "Vikram Patel", "Sneha Reddy",
+  "Aditya Joshi", "Kavya Iyer", "Karan Malhotra", "Riya Sen"
+];
+
+function getRandomReviews() {
+  const count = Math.floor(Math.random() * 3) + 2; // Random number between 2 and 4
+  const shuffledTexts = [...reviewTemplates].sort(() => 0.5 - Math.random());
+  const shuffledNames = [...mockNames].sort(() => 0.5 - Math.random());
+  
+  return shuffledTexts.slice(0, count).map((text, i) => {
+    // Random rating between 3.5 and 5.0
+    const rating = Math.round((Math.random() * 1.5 + 3.5) * 10) / 10;
+    
+    // Random date in the past 2 years
+    const daysAgo = Math.floor(Math.random() * 730);
+    const date = new Date();
+    date.setDate(date.getDate() - daysAgo);
+
+    return {
+      reviewText: text,
+      name: shuffledNames[i],
+      rating: rating,
+      date: date
+    };
+  });
+}
+
 async function main() {
   console.log('Start seeding...');
+
+  // Clear existing reviews to prevent duplicates if seeding multiple times
+  await prisma.review.deleteMany({});
+  console.log('Cleared existing reviews.');
+
   for (const c of colleges) {
     const college = await prisma.college.upsert({
       where: { slug: c.slug },
-      update: {},
+      update: c,
       create: c,
     });
-    console.log(`Created college: ${college.name} (id: ${college.id})`);
+
+    const mockReviews = getRandomReviews();
+    for (const review of mockReviews) {
+      await prisma.review.create({
+        data: {
+          collegeId: college.id,
+          reviewText: review.reviewText,
+          name: review.name,
+          rating: review.rating,
+          date: review.date
+        }
+      });
+    }
+
+    console.log(`Created college: ${college.name} with ${mockReviews.length} reviews`);
   }
   console.log('Seeding finished.');
 }
